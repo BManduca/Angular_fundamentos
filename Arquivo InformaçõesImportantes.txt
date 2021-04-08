@@ -1,0 +1,63 @@
+
+Instalação Node.js no MAC
+O homebrew é a maneira mais recomendada para instalar o Node.js, por meio do comando:
+
+brew update
+brew install node
+
+Não usa homebrew? Sem problema, basta baixar o instalador clicando no botão install, 
+diretamente da página do Node.js.
+
+Editor: Visual Studio Code (gratuito)
+O uso do Visual Studio Code (VSCode) é um editor gratuito criado pela Microsoft e disponível 
+para Windows, Linux e MAC. Sua integração com TypeScript é realizada sem qualquer esforço, 
+e sem configurações adicionais.
+
+API Rest -> retorna dados no formato JSON. 
+O Padrão REST utiliza o protocolo HTTP e como HTTP é a web, 
+tanto o navegador quanto a aplicação nativa em Android saberão 
+consumir essa API para buscar, armazenar e enviar dados, 
+inclusive executar regras de negócio
+
+Node.js -> ter noção do Padrão REST e saber implementar com node.js
+
+SPA ou Single Page Applications: 
+quando um index.html for carregado, a mudança da página será feita
+via JavaScript com base nas ações do usuário e nos dados recebidos da API Rest.
+index.html sempre será exibida, mas seu conte[udo será alterado
+dinamicamente através do JavaScript
+
+Angular -> Framework SPA
+
+O Angular nos permite criar componentes reutilizáveis que encapsulam
+sua apresentação e comportamento. À medida em que formos criando nossos
+componentes, o tempo para desenvolver novos recursos ficará cada vez menor,
+pois poderemos combinar esses componentes entre si para criar novas 
+funcionalidades. Sobre a questão de manipulação do DOM. raramente precisaremos
+fazer isso, pois basta definirmos um template que é a apresentação do componente
+e ligá-lo a uma fonte de dados. A apresentação será utilizada toda vez que os dados 
+associados em template mudarem. Tudo bem que um teste automatizado pode detectar 
+problemas, mas poder detectá-los em tempo de desenvolvimento é um ganho e tanto.
+
+o desenvolvimento de uma aplicação Angular é feito na linguagem TypeScript, 
+que nada mais é do que um superset do ES2015, ou seja, tem tudo o que o JavaScript tem, 
+além de outros poderosos recursos. Aliás, um deles é o suporte à tipagem estática, 
+a mesma presente em linguagens como Java, C, C#, entre outras.
+
+ linguagem TypeScript existe apenas em tempo de desenvolvimento, 
+ pois antes do nosso código entrar em produção, ela é traduzida para JavaScript puro. 
+ Como o código que foi escrito em TypeScript não possui erros por causa da sua checagem estática, 
+ o código JavaScript gerado também não possuirá erros.
+
+Toda a infraestrutura será configurada através da ferramentar Angular CLI, como por exemplo
+configurar o projeto, compilador, build automático, minificar, concatenas e etc.
+O que precisará de foco, será na criação dos componentes.
+
+Angular foca em evergreen browsers, isto é, suportará sempre as duas últimas versões 
+vigentes dos navegadores do mercado.
+
+A versão 1.X do Angular é chamada de Angularjs, e todas as outras a partir da versão 
+2.X são chamadas de Angular apenas. A mudança do Angularjs para o Angular foi tão drástica 
+que o primeiro não é pré-requisito para que se aprenda o segundo. O importante é entender 
+que Angular é um framework totalmente reescrito, utilizando tecnologias que não estão mais 
+presentes no Angularjs.
